@@ -12,7 +12,6 @@ const NestedArraypagination = () => {
     while (i < n) {
       chunkarr.push(array.slice(i, (i += length)));
     }
-
     return chunkarr;
   };
   const getAllPosts = () => {
